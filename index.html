@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img
+          src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+          alt="logo"
+        />
+        <input id="input" type="text" placeholder="enter username..." />
+      </div>
+
+      <div class="infoDiv">
+        <div class="profile">
+          <div class="profileImg"></div>
+          <p class="name">name</p>
+          <p class="user_name">subname</p>
+          <p class="user_location">location</p>
+          <p class="twitter">twitter</p>
+          <div class="details">
+            <div>
+              <p>Public Repos</p>
+              <p class="repos"></p>
+            </div>
+            <div>
+              <p>Followers</p>
+              <p class="followers"></p>
+            </div>
+            <div>
+              <p>Following</p>
+              <p class="following"></p>
+            </div>
+          </div>
+        </div>
+        <div class="repo">
+          <div class="searchRepo">
+            <input type="text" class="repoName" placeholder="search repo..." />
+            <select class="select">
+              <option value="" disabled>Result/Page</option>
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+          <div class="repoContainer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
