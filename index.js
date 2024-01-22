@@ -1,5 +1,5 @@
 const inputElement = document.querySelector("#input");
-const token = "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";
+const token = "git_token";
 let profileImg = document.querySelector(".profileImg");
 let searchTerm = document.querySelector(".repoName");
 let repoContainer = document.querySelector(".repoContainer");
